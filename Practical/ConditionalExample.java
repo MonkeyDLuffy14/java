@@ -8,7 +8,7 @@ class ConditionalExample{
 		else if(age>=21 && age<=50){  //2nd condition
 			System.out.println("Age Group 21-50");
 		}
-		else if(age>=51 && age<=80){
+		else if(age>=51 && age<=80){  //3rd condition
 			System.out.println("Age Group 51-80"); //3rd Condition
 		}
 		else{  //if all false then this
