@@ -47,9 +47,9 @@ class SwitchCalculator{ //open new class
 		System.out.println("Enter 2nd Number: ");
 		int n2=sc.nextInt();
 		System.out.println("Select Number for Your choice of Operation: \n 1.Addition \n 2.Subtraction \n 3.Multiplication \n 4.Division");
-        int n3=sc.nextInt();
-        SwitchCalculator obj=new SwitchCalculator();  //class object
-        obj.calc(n1,n2,n3);  //invoke a method
+                int n3=sc.nextInt();
+                SwitchCalculator obj=new SwitchCalculator();  //class object
+                obj.calc(n1,n2,n3);  //invoke a method
 		
 		
 	}
